@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete HTML</title>
+</head>
+<body>
+ <!--it is used to write headlines-->   
+ <h1>Harsh</h1>
+ <h2>Harsh</h2>
+ <h3>Harsh</h3>
+ <h4>Harsh</h4>
+ <h5>Harsh</h5>
+ <h6>Harsh</h6>
+ <hr>
+
+<!--it is used to write paragraph-->
+<p>Harsh</p>
+<hr>
+
+<!-- it is used to add Absolute link i.e., google-->
+    <a href="https://www.google.com/">Google</a>
+    <br>
+
+<!--it is used to add relative link and must mention folder name if it is not present in same folder() -->
+    <a href="/appna clg\portfolio.html">portfolio</a>
+    <!-- portfolio.html -->
+    <hr>
+
+<!-- it is used to add absolute image(links:-copy image address)-->
+    <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1024x768_scale,f_auto,q_auto:best/streams/2013/March/130326/1C6639340-google-logo.jpg" alt="Google" height="100"/>
+    <br>
+
+    <!-- it is used to add Relative image-->
+     <!-- alt: if image do not show due to weak network then it show their name -->
+    <img src="Portfolio.jpg" alt="portfolio" height="100"/>
+    <hr>
+
+     <!-- it is used to highlight the TEXT -->
+     <b>Harsh-bold print</b>
+     <br>
+     <u>Harsh- underline print</u>
+     <br>
+     <i>Harsh- italic print</i>
+     <hr>
+
+     <!--it is used to display big & small text -->
+     <big>Harsh- big text</big>
+     <br>
+     <small> Harsh-small text </small>
+     <hr>
+
+     <!--Used to write in horizontal ruler(power) called subscript-->
+     <p>H<sub>2</sub>O</p> 
+
+     <!--Used to write in vertical ruler(power) called superscript-->
+     <p>A<sup>n</sup>+B<sup>n</sup> </p>
+     <hr>
+
+     <!--Used to display text (without ignoring spaces & next line)-->
+     <pre>  H A R S H 
+        S O N I  </pre>
+
+        <!--Page Layout Techniques
+        using Semantic tags for layout
+        <header>
+        <main>
+        <footer>-->
+
+            <h1>My Personal Details:</h1>                                         <!--header-->
+ 
+            <main>                                                                 <!--main
+                                                                                       section
+                                                                                       article(story like)
+                                                                                       aside(ads)    -->
+            <section>education:B.tech|Electronic and computer science</section>
+            <hr/>
+            <section>expereience: Fresher</section>
+            <hr/>
+            <section>mobile no: 6388449807</section>
+            <hr/> 
+
+
+            <article><b>my story:</b> My name is HARSH SONI.I am from uttarpradesh currently i pursuing Btech from vidyalankar institute of technology in Wadala Mumbai. .</article>
+            
+            <aside><b>Ads:</b>not much peference</aside> 
+
+
+        </main> 
+            <footer> <h4>contact at sonih3654@gmail.com</h4></footer>                <!--footer-->         
+              
+ <hr>
+<!-- same as absolute link with (target=_"main") that means link open in new tab-->
+            <a href="https://www.google.com/" target="_main">Google</a>
+            <br>
+            <br>
+
+<!-- same as absolute image with Clickable image+ open in new tab-->
+            <a href="https://www.google.com/"><img src="https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1024x768_scale,f_auto,q_auto:best/streams/2013/March/130326/1C6639340-google-logo.jpg" height="100px" > </a>   
+     <hr>
+
+          <!-- notes: Div tag - it take full width called Block Element
+                   Span tag - it take per size width called Inline Element-->
+<div>Hello world </div>
+<span>hello world</span>
+<hr>
+
+                   <!--List in HTML
+                   Lists are used to represent real life list data.
+                   unordered
+                   ordered-->     
+                   
+                   
+    <!--unordered:show in bullet points-->
+    <ul>
+        <li>Apple</li>
+        <ul> 
+            <li>season: winter</li>
+            <li>color: red</li>
+        </ul>
+    </ul>
+
+    
+    <ol>
+        <li>Banana</li>
+        <ol> 
+            <li>season: winter</li>
+            <li>color: yellow</li>
+     
+             <li>mango</li>
+    </ol>
+</ol>
+    <hr>
+<!--ordered:show in no. points-->
+<ol>
+    <li>Apple</li>
+    <ol> 
+        <li>season: winter</li>
+        <li>color: red</li>
+    </ol>
+    <li>Banana</li>
+    <ul> 
+        <li>season: winter</li>
+        <li>color: yellow</li>
+    </ul>
+    <li>mango</li>
+</ol>   
+<hr>   
+
+<!--Tables in HTML
+Tables are used to represent real life table data.-->
+<table> 
+    
+    <caption>Student Data</caption>
+    <thead>
+
+      <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Roll No
+        </th>
+      </tr>
+
+    </thead>
+
+    
+
+       <!-- <tr>
+          <th  colspan="2">
+              Information
+          </th>
+        </tr>
+
+        OR
+        
+<tr> <th colspan="2">student</th> </tr>
+
+put data 
+
+  
+      </thead> -->
+  
+
+
+    <tbody>
+
+
+      <tr> 
+        <td> 
+            HARSH
+        </td>
+        <td>
+            22108A0003
+        </td>
+    </tr> 
+    <tr> 
+        <td> 
+            Adarsh
+        </td>
+        <td>
+            22108B0003
+        </td>
+    </tr>
+
+
+</tbody> 
+
+</table>
+<hr>
+ 
+
+<!--Form in HTML-->
+<form action="/action.php">
+  <input type="text" placeholder="Username">   <!--placeholder show text in background-->
+  <input type="text" placeholder="Password">
+  <br>
+ 
+<!--Label that means :text click then auto select in box -->
+
+<!--user can't see name(data)
+Backend can't see print (data) (at last  )  so value,name,print in always sink, FOR MULTPLE choice both name (data) has same -->
+  <!-- is name(data) is differnt we select more than one -->
+
+<label for="101">
+    <input type="radio" value="class 11th" name="class" id="101">class 11th 
+</label>
+<br>
+<label for="102">
+    <input type="radio" value="class 12th" name="class" id="102">class 12th
+</label>  
+<br>
+ 
+<!--checkbox-->
+<label for="math">
+    <input type="checkbox" value="math " name="subject" id="101">math
+</label>
+<label for="phy">
+    <input type="checkbox" value="phy" name="subject" id="102">phy
+</label>
+    <label for="cs">
+        <input type="checkbox" value="cs " name="subject" id="103">cs
+    </label>
+    <label for="chem">
+        <input type="checkbox" value="chem " name="subject" id="104">chem
+    </label>
+     <br>
+
+    <textarea name="feedback" id="101" rows="5" placeholder="please give valuable feedback here"></textarea>
+<br><br>
+
+
+<div class ="1">
+    <div id="1">hqHIHJD</div>
+    <spam id="2">hiahiohgiH</spam>
+  </div>
+
+
+<!--select-->
+
+<select name="city">
+    <option value="Delhi">Delhi</option>
+    <option value="goa">goa</option>
+    <option value="pune">pune</option>
+    <option value="UP">Up</option>
+</select>
+    <br><br>
+<!--submit button-->
+    <input type="submit" value="SUBMIT"/>
+</form>
+<!-- The <form> HTML element represents a document section containing interactive controls for submitting information. -->
+ 
+<!--iframe Tag
+website inside website
+link: share + embeded+ copy-->
+ <iframe width="400" height="200" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=TKB63lfjVU29cEdU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> </iframe>
+<br><br>
+
+ <iframe width="500" height="300" src="https://www.wikipedia.org/"> Link </iframe>
+ <br> <br> <br>
+
+ <!--relative or absolute Video Tag
+Link= click + space-->
+ <video width="500" height="300"  src="/appna clg/intership websites.mp4" controls loop autoplay> My Video </video>
+ 
+</body>
+</html>
