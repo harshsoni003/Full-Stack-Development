@@ -1,0 +1,32 @@
+*{
+    color:blue;  /*universal(all) selector last color always peference*/
+
+
+}
+
+h1{
+    color:aquamarine; /*particular element selector*/
+}
+
+
+#heading1{                    
+    color:brown;   /*unique id selector*/
+}
+
+
+ /* <h1 id="heading1">This is heading1</h1>
+<h1 id="heading2">This is heading2</h1>
+
+
+
+<h1 class="myClass" >This is heading3</h1>
+<p class="myClass">This is a simple & normal paragraph.</p>      */
+
+
+
+
+
+.myclass{
+    color:blueviolet;   /*class selector*/
+}
+
