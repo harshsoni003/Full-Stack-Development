@@ -1,0 +1,17 @@
+/*foreground color*/
+h1 {
+    color:green;
+
+}
+p {
+    color: blueviolet;
+} 
+
+button {                         /*both use*/
+    color:crimson;
+    background-color: #ffff00;  /*hex form system* also go color picker and coolors.co*/
+}
+/*background color*/
+body {
+    background-color:rgb(236, 234, 114); /*RGB form system*/
+}

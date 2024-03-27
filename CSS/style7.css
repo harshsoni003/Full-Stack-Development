@@ -1,0 +1,24 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid  black;
+    display: inline-block;
+    
+    }body{
+        background-image: url("image2.jpg");
+        background-size:cover;
+    }
+
+    #box1{
+        background-image: url("image2.jpg");
+        background-size:cover;
+        /*contain: complety fit and no empty space */
+        /* fit image according to size and no empty space occur (adjust due to repeat image) */
+    border: 4px solid yellow;
+       
+    }
+    #box2{
+        background-image: url("image3.jpg");
+        background-size: cover;
+    }

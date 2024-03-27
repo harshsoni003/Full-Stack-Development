@@ -1,0 +1,21 @@
+#box1{
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    /* pareent */
+    font-size: 10px;
+}
+#box2{
+    height: 50px;
+    width: 30%;  
+    /* teke 30% of parent div */
+    background-color:yellow;
+    /* child */
+    margin-left: 10%;
+    font-size: 2em;
+    /*px=em see parent of font size  */
+     width:5em ;
+     /* exception width see child font size(itself) */
+     width: 5rem;
+     /* it take 5 rem of root px (jo body ke root me hota hai ex:hello) jo random px assume krta 16px */
+}

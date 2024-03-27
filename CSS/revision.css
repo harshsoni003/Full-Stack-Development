@@ -1,0 +1,25 @@
+div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    display:inline-block;
+
+}
+
+#myid{
+    height: 800px;
+    width:600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#box2{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    /* align-self : alignment of individual along the cross axis (koi particular box ko align krna ho  */
+     align-self: flex-end;
+     /* container more priority */
+ }

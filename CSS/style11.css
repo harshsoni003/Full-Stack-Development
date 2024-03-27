@@ -1,0 +1,49 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    transition: all;/*ready to apply transition*/
+    transition-duration: 2s; /*transition changes in 2sec*/
+    transition-timing-function: steps(5);/*transition apply 5 steps for more learn go mdn /ease-in*/
+    transition-delay: 0s;
+    /* shortcut */transition: all 2s ease-in 0s;
+
+
+transform: rotate(45deg);/*trnsform both apply content and box*/
+ 
+/* rotate: x/y/z 45deg; */
+
+
+
+
+transform: scale(0.5);/*scale=bada ya chota krna 0.5 times*/
+/* take 0.5times small both x and y axis
+       OR */
+
+/* transform: scale(0.5,1); */
+
+
+}
+/* hover: mouse corsor: changesor transition apply hoga  */
+div:hover{
+    background-color: red;
+    color: whitesmoke; /* font color*/
+    font-size: 20px;
+
+
+   transform:scaleY(2); /*zoom hoga y axis me and also use rotate concept*/
+
+    transform: translateX(200px);
+    /* x-axis ki taraf move hoga */
+/* same as translate Y(-22px) ex use drop obj */
+
+
+transform: skew(60deg);/*strech hoga both corner se*/
+
+}
+
+/* box pe right click means active */
+div:active{
+    background-color: blue;
+}

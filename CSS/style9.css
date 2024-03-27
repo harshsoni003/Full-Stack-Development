@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+}
+div{
+    height: 50px;
+    width: 200px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    width: 800px;
+    height: 800px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+   align-items: center;/*same as flex-start/end(upper layer same honge*/
+    /*align-content: center;/*saare box centre me aa jayenge*/
+/*  same as align-content: flex-start/end*/
+
+
+
+/* screenshot */
+/* note:flex-shrink:in container is small boxes adjust in small size */
+/* note:flex-grow just opposite flex-shrink */
+
+
+
+
+
+
+
+}
+#box2{
+   height: 200px;
+   width: 200px;
+   background-color: aqua;
+   /* align-self : alignment of individual along the cross axis (koi particular box ko align krna ho  */
+    align-self: flex-start;
+    /* container more priority */
+}
+#box3{
+    background-color: aqua;
+
+}
+#box4{
+    background-color: aqua;
+
+}
+#box5{
+    background-color: aqua;
+
+}
+#box1{
+    background-color: aqua;
+
+}

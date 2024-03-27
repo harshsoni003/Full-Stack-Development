@@ -1,0 +1,37 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid  black;
+    display: inline-block;
+    
+    }
+#box1{
+    position: static;
+    /* no changes in top,bottom,left, right */
+}
+#box2{
+    position: relative;
+    /* changes in top,bottom,left, right with respect to releative */
+    top: 20px;
+     left: 10px; 
+     z-index: 1;
+     /* perference in overlapp */
+}
+#box3{
+    position: absolute;
+    top: 250px;
+    /* changes allowed with respect to the parent of box of 3(phele jaha tha waha se change hoga) which is body tag(brower) it not always   */
+}
+#box4{
+    position: fixed;
+    /* change in always to the brower and box remain fixed whwre it's present   */
+}
+#box5{
+    position: sticky;
+    top: 0px; 
+    /*  must mention where it's fixed 0px and user scrol ke time fixed hota hai
+     */
+
+
+}
