@@ -8,5 +8,5 @@
   },
   "author": "HARSH SONI",
   "license": "ISC",
-  "type": "module"
+  "type": "module"      // add extra line
 }

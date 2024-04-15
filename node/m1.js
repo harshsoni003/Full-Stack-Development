@@ -1,5 +1,5 @@
 
-const sum= (a,b) => a+b;
+const sum= (a,b) => a+b;                //m1.js+s1.js
 const mul= (a,b) => a*b;
 
 let obj={

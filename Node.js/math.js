@@ -1,9 +1,12 @@
+module.exports = 1234567890;  // used to link 2 file here(math.js and script1.js)
+
+
+
 const sum = (a,b) => a+b;
 const mul = (a,b) => a*b;
 const g=9.8;
 const PI = 3.14;
 
-module.exports = 1234567890;  // used to link 2 file here(math.js and script1.js)
 
 let obj={
 sum:sum,
@@ -31,4 +34,5 @@ module.exports={
 module.exports.sum = (a,b) => a+b;
 //or
 exports.mul = (a,b) => a*b;  //not valid =exports =5;
+                             //module.ecports=5;   valid
 
