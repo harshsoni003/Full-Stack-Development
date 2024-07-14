@@ -21,7 +21,7 @@ console.log("sum = ", sum);
 for(let i=1; i<=20; i++){
     console.log("i", i);
 }
-console.log(i); //i=6; isn't print because i decleared in only block({})
+console.log(i); //this i isn't print because i decleared in only block({})
 
 
 //while loop
@@ -34,12 +34,15 @@ while(j<4){
 
 
 //do-while loop
-let i=20;
-do {
-    
-    console.log("HARSH SONI");
+let i=1;
+do{
+    console.log("hello",i)
     i++;
-} while(i<=10);
+}
+while(i<=5);
+console.log("loop ended")
+
+
 
 //for of loop
 let str = "HARSH SONI";
@@ -47,6 +50,7 @@ let size=0;
 for (let i of str){
    console.log("i=", i);
    size++;
+   console.log("Size of string is: "+size);  
 }
 console.log("Size of string is: "+size);            //Size of string is: 10
 
@@ -68,8 +72,10 @@ let student = {
     ispass: true,
 };
 for (let key in student){
-    console.log("key = ", key, "\nvalues", student[key]);
+    console.log("key = ", key, "\nvalues", student[key]);  //console.log(person["age"]);
 }
+//console.log(person["age"]);
+
 
 
 

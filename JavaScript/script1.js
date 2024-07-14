@@ -59,3 +59,14 @@ else{
 console.log("Your Grade is  ",grade);
 
 
+
+//practice
+let age1 = prompt("Enter age");
+
+if (age1 > 18) {
+    console.log("You are eligible to vote");
+} else if (age1 === 18) {
+    console.log("18 is eligible for vote");
+} else {
+    console.log("You are not eligible to vote");
+}

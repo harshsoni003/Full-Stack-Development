@@ -4,15 +4,15 @@
 // console.dir(window.document) = it's used to print method and properties
 //console.log= used to only print
 
-
+    
 console.dir(window.document); //or
 console.dir(document);
 
 //acess the html element
-console.dir(document.body);  //property acess
+console.dir(document.body);  //property access
 console.log(document.body);  // print element
 
-document.body.childNodes [3].innerText = "harsh soni";  //aise dyanmic changes kr skte hai
+document.body.childNodes[3].innerText = "harsh soni";  //used for dyanmic(during run time) changes kr skte hai
 // h1 text change it with harsh soni 
 
 
@@ -28,7 +28,7 @@ let headings = document.getElementsByClassName("heading-class");  //acess the ht
 console.dir(headings);
 
 //acess the html element through p ---> see pdf
-let parahs = document.etElementsByTagName("p");
+let parahs = document.getElementsByTagName("p");
 console.dir(parahs);
 
 

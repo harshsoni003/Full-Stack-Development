@@ -22,7 +22,7 @@ console.log(isfollow);
 //Dynamically typed = doesn't required to decleared(int,string,char,boolean,float) what value we want to store
 
 
-var age = 23;  // can be decleared and updated
+var age = 23;  // can be re-decleared and updated
 age = 45;
 var age= 33;
 var age= 86;
@@ -37,12 +37,25 @@ console.log(myAge);
 
 {                // but in block ({}) we can recleared
 let a= 10;
-console.log(myAge);
-}
+console.log(myAge);                                                   
+}                                 /* multiple line comment*/
 {
 let a=20;
 console.log(myAge);
 }
+
+
+
+
+//Example
+let age=3654;
+ age=4354;
+
+{
+    let age=123456789;
+    console.log(age);
+}
+
 
 
 

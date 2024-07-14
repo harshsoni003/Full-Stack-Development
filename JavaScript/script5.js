@@ -53,7 +53,7 @@ console.log(arr);                        //2 = index 2= which is 3
                                          // cat = dlt item relpace by cat
  //add (add 1 or more than )
  arr.splice(2,0,"hrs", 101);         //add in indeex 2  from = [1, 2, 'cat', 4, 5, 6, 7]
- console.log(arr);
+ console.log(arr);                   //[1, 2, 'hrs', 101,cat', 4, 5, 6, 7]
 
 
  //dlt (dlt 1 or more than )

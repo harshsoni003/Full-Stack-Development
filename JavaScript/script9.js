@@ -1,6 +1,7 @@
 let div1 = document.querySelector("div");
 console.log(div1);
 
+
 let id111 = div1.getAttribute("id");   
 console.log(id111);    // print the atttributes value or id value = box
 
@@ -13,11 +14,6 @@ div. style.backgroundColor = "purple";
 
 console.log(div.style); //acess css in js
 div.style.foñtSize = "26px";
-
-
-
-
-
 
 
 
