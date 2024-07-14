@@ -1,0 +1,8 @@
+.Hello{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: pink;
+    height: 150px;
+    width: 250px;
+}
